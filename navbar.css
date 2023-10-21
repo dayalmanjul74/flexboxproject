@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menubar{
+    background-color:aquamarine ;
+    text-align: center;
+}
+.menubar ul{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    list-style-type:none;
+}
+.menubar ul li{
+    width:130px;
+    margin:20px;
+    padding:10px;
+}
+.menubar ul li a{
+    text-decoration:none;
+    color:black;
+}
+.active,.menubar ul li:hover{
+    background-color: cornflowerblue;
+    border-radius: 3px;
+}
+.submenu
+{
+    display:none;
+}
+.menubar ul li:hover .submenu{
+    display:block;
+    background-color:rgb(134,151,98);
+    position:absolute;
+    border-radius:3px;
+    margin-top:10px;
+}
+
+.menubar ul li:hover .submenu ul{
+    display:block;
+    margin:5px;
+}
+
+.menubar ul li:hover .submenu ul li{
+    border-bottom:1px dotted white;
+}
+
+.menubar ul li:hover .submenu ul li:last-child{
+    border-bottom:none;
+}

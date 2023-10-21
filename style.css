@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+.trainning-section{
+    width:100%;
+    
+    background-image: url('image/bgtrainning.jpg');
+    background-size:cover;
+    padding-bottom:50px;
+}
+h1{
+    text-align:center;
+    padding:25px 0px;
+
+}
+.container{
+    width:1170px;
+    margin:auto;
+    border:1px solid red;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.training-item
+{
+    flex-basis:23%;
+    margin:10px 0px;
+    background:white;
+    box-shadow: 0px 0px 10px 3px lightgray;
+    text-align:center;
+    padding: 20px 0px;
+
+}
+.training-item:hover{
+    background:blue;
+}
+.training-item:hover h3,.training-item:hover p{
+    color:white;
+}
+.training-item:hover button{
+    background:white;
+    color:blue;
+}
+h3{
+    padding:10px 0px;
+}
+p{
+    font-size:13px;
+    padding:10px;
+}
+button{
+    background:blue;
+    color:white;
+    padding:10px 25px;
+    border:none;
+    margin:10px 0px;
+    border-radius:10px;
+}
+
